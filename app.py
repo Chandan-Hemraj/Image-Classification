@@ -9,8 +9,8 @@ model = load_model(os.path.join(BASE_DIR , 'model.hdf5'))
 ALLOWED_EXT = set(['jpg' , 'jpeg' , 'png' , 'jfif'])
 
 
-ACCESS_KEY = 'AKIA5YVCEFAAOGN7HUX5'
-SECRET_KEY = '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'
+ACCESS_KEY = ''
+SECRET_KEY = ''
 
 s3 = boto3.client('s3',
                   aws_access_key_id=ACCESS_KEY,
